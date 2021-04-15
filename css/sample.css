@@ -1,0 +1,91 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+header {
+  height: 50px;
+  background-color: #2B2B2B;
+}
+header ul  {
+  list-style:none;
+}
+.left {
+  float: left;
+  margin-left: 10px;
+}
+  .left {
+    float: left;
+      margin-left: 10px;
+    }
+  .right {
+    float: right;
+      margin-left: 10px;
+  }
+  .right {
+    float: right;
+      margin-left: 10px;
+  }
+
+header ul a {
+}
+header li {
+}
+header ul:after {
+}
+/* Up to here is the implementation of the header part */
+.main-header img {
+  position: relative;center;
+  width: 13%;
+  text-align: center;
+/* Implementation of main image (white “Achieve” text image) */
+text-align: center;
+position: absolute;center;
+width: 13%auto;
+}
+.about {
+
+/* About Implementation of Achieve part */
+}
+.about p {
+  font-size: 1.5rem;
+  }
+  .about p {
+    font-size: 0.8rem;
+    }
+/* from here */
+.function {
+  background-color: #D3D3D3
+}
+.function-images {
+  position: relative;center;
+  display:inline-flex;
+}
+.function-image {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* Up to here is the implementation of the function part */
+footer {
+  position:bottom;
+  height: 70px;
+  background-color: #283A4B
+/* Implementation of footer part */
+}
+.footer p{
+  font-size: 0.8rem;
+  text-align: center;
+  }
+
+
+<!-- ここに書かれているhtmlの記述はあくまでヒントとして用意された雛形なので、書かれている記述に従わずに実装したいという場合は、自分の好きに実装して構いません。合格要件をすべて満たしていれば合格となります。 -->
